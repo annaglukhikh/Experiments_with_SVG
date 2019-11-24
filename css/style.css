@@ -1,0 +1,27 @@
+@import url(/reset.css);
+
+* {
+	margin: 50px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.image {
+	justify-content: center;
+	text-align: center;
+}
+
+#ice {
+	animation: ice 1s ease-out infinite alternate;
+	transform: none;
+	top: 0;
+}
+
+@keyframes ice {
+	from {
+		transform: rotateX(0deg);
+	}
+	to {
+		transform: rotateX(20deg);
+	}
+}
